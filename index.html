@@ -260,9 +260,9 @@
 <ol class="call-script"><li><b>Chào và xin phép (10 giây):</b> “Dạ em chào anh/chị, em là [TÊN] từ 68 Property. Anh/chị từng quan tâm lô [MÃ LÔ]. Em gọi lúc này có tiện không ạ?”</li><li><b>Hỏi nhu cầu (20 giây):</b> “Mình mua để ở hay tích lũy ạ? Anh/chị đang ưu tiên khu vực và ngân sách khoảng bao nhiêu?”</li><li><b>Đề xuất đúng lô (20 giây):</b> “Em có lô [MÃ LÔ] tại [KHU VỰC], diện tích [DIỆN TÍCH], giá [GIÁ ĐÃ DUYỆT]. Anh/chị muốn em gửi vị trí và thông tin để mình xem trước không?”</li><li><b>Chốt bước tiếp (10–20 giây):</b> “Em gửi qua Zalo này nhé. Em có thể gọi lại vào [GIỜ] để giải đáp thêm, anh/chị có tiện không ạ?”</li><li><b>Sau cuộc gọi:</b> Ghi nhu cầu, ngân sách và lịch đã hẹn vào nơi lưu khách của team. Không thu tiền, tự hứa giảm giá hay khẳng định pháp lý khi chưa duyệt.</li></ol>
 <div class="callout info"><b>Nếu bị từ chối:</b> “Dạ em cảm ơn anh/chị. Khi nào mình cần thông tin thêm cứ nhắn em ạ.” Không gọi dồn dập hoặc gây áp lực.</div>
 
-<!-- Salephone laboratory stays folded within Newbie Day 3; FAQ content remains unchanged. -->
+<!-- Salephone: original device Vietnamese voice with original MP3 fallback; preserve FAQ + Sheets integration. -->
 <details class="phone-lab" id="phone-lab">
-  <summary><span class="phone-ico" aria-hidden="true">🎧</span><span class="phone-summary"><strong>Luyện sale phone: Nghe khách hỏi – tập trả lời</strong><small>15 tình huống thực tế · Có giọng hỏi MP3 · Bấm mở để luyện</small></span><span class="phone-arrow" aria-hidden="true">⌄</span></summary>
+  <summary><span class="phone-ico" aria-hidden="true">🎧</span><span class="phone-summary"><strong>Luyện sale phone: Nghe khách hỏi – tập trả lời</strong><small>15 tình huống · Giọng Việt của thiết bị, audio gốc dự phòng</small></span><span class="phone-arrow" aria-hidden="true">⌄</span></summary>
   <div class="phone-content">
     <p>Chọn tình huống, bấm <b>Nghe khách hỏi</b>, thử trả lời bằng lời của mình. Nghe xong, <b>câu trả lời gợi ý tự hiện</b> phía dưới để bạn đối chiếu.</p>
     <div class="phone-filters">
@@ -279,7 +279,7 @@
         <button type="button" class="btn light" id="phone-next">↻ Câu tiếp</button>
       </div>
       <audio id="phone-audio" preload="none" aria-label="Giọng khách hỏi tình huống salephone"></audio>
-      <p class="phone-status" id="phone-status" role="status" aria-live="polite">Sẵn sàng. Không cần internet để nghe MP3 nếu đã tải đầy đủ thư mục audio.</p>
+      <p class="phone-status" id="phone-status" role="status" aria-live="polite">Sẵn sàng. Ưu tiên giọng tiếng Việt của thiết bị; dùng audio gốc khi không có giọng phù hợp.</p>
     </div>
     <button type="button" class="btn light small-btn" id="phone-show" style="margin-top:11px">Xem lời gợi ý ngay (nếu cần)</button>
     <div class="phone-answer" id="phone-answer" hidden>
